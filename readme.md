@@ -23,7 +23,12 @@ console.log(require('vbb-common-places'))
 ```
 
 ```js
-todo
+{
+	zoo:       9023201, // S+U Zoologischer Garten Bhf (Berlin)
+	kotti:     9013102, // U Kottbusser Tor (Berlin)
+	witzleben: 9024106, // S Messe Nord/ICC (Berlin)
+	// …
+}
 ```
 
 
