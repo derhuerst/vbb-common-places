@@ -9,5 +9,16 @@
 	"homepage":     "https://github.com/derhuerst/vbb-common-places",
 	"repository":   "git://github.com/derhuerst/vbb-common-places.git",
 	"license":      "ISC",
-	"engines":      {"node": ">=4"}
+	"engines":      {"node": ">=4"},
+	"devDependencies": {
+		"blue-tape":            "^4.5.1",
+		"so":                   "^1.0.1",
+		"vbb-stations":         "^0.3",
+		"vbb-tokenize-station": "^0.1.1",
+		"tap-min":              "^1.1"
+	},
+	"scripts": {
+		"test":       "tape test.js | tap-min",
+		"prepublish": "npm test"
+	}
 }
