@@ -1,0 +1,13 @@
+{
+	"name":         "vbb-common-places",
+	"description":  "Aliases for common stations.",
+	"version":      "0.1.0",
+	"main":         "index.js",
+	"files":        ["index.js"],
+	"keywords":     ["vbb", "stations", "places"],
+	"author":       "Jannis R <mail@jannisr.de>",
+	"homepage":     "https://github.com/derhuerst/vbb-common-places",
+	"repository":   "git://github.com/derhuerst/vbb-common-places.git",
+	"license":      "ISC",
+	"engines":      {"node": ">=4"}
+}
