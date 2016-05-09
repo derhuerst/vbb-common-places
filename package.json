@@ -3,7 +3,7 @@
 	"description":  "Aliases for common stations.",
 	"version":      "0.2.0",
 	"main":         "index.js",
-	"files":        ["index.js"],
+	"files":        ["index.js", "stations.js"],
 	"keywords":     ["vbb", "stations", "places"],
 	"author":       "Jannis R <mail@jannisr.de>",
 	"homepage":     "https://github.com/derhuerst/vbb-common-places",
