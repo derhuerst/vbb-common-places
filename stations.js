@@ -25,12 +25,12 @@ module.exports = {
 	"lehrter bahnhof": 			9003201, // S+U Berlin Hauptbahnhof
 	"lindenthaler allee": 		9050301, // S Mexikoplatz (Berlin)
 	"unter den linden": 		9100025, // S+U Brandenburger Tor (Berlin)
-	"papestrasse": 				9058101, // S Südkreuz (Berlin)
+	"pape strasse": 			9058101, // S Südkreuz (Berlin)
 	"zinnowitzer strasse": 		9100009, // U Naturkundemuseum (Berlin)
-	"seidelstrasse":			9086101, // U Otisstr. (Berlin)
+	"seidel strasse":			9086101, // U Otisstr. (Berlin)
 	"knie":						9023101, // U Ernst-Reuter-Platz (Berlin)
-	"putlitzstrasse":			9001201, // S+U Westhafen (Berlin)
-	"grossgoerschenstrasse":	9057101, // S Yorckstr. [S1] (Berlin)
+	"putlitz strasse":			9001201, // S+U Westhafen (Berlin)
+	"grossgoerschen strasse":	9057101, // S Yorckstr. [S1] (Berlin)
 
 	"kienberg gaerten der welt":	9175005 // U Neue Grottkauer Str. (Berlin) [renaming planned, late 2016 / early 2017]
 }
