@@ -18,6 +18,7 @@ module.exports = {
 	"nolli":           9056102, // U Nollendorfplatz (Berlin)
 	"plumpe":          9007102, // S+U Gesundbrunnen Bhf (Berlin)
 	"rostkreuz":       9120003, // S Ostkreuz Bhf (Berlin)
+	"ruedi":           9045101, // U Rüdesheimer Platz (Berlin)
 
 	// renamed stations
 	"eichkamp":        			9025423, // S Messe Süd (Berlin)
