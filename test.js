@@ -21,7 +21,7 @@ test('values', so(function* (t) {
 	for (let key in places.stations) {
 		const id = places.stations[key]
 		t.equal(typeof id, 'number', 'Value should be a number.')
-		const station = (yield stations(true, id))[0]
+		const station = stations(id)[0]
 		t.equal(station.id, id, 'Station id should exist.')
 	}
 }))
