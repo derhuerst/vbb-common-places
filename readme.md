@@ -7,6 +7,7 @@ This is a collection of **aliases for common stations** (like "zoo", "alex", "ko
 [![dependency status](https://img.shields.io/david/derhuerst/vbb-common-places.svg)](https://david-dm.org/derhuerst/vbb-common-places)
 [![dev dependency status](https://img.shields.io/david/dev/derhuerst/vbb-common-places.svg)](https://david-dm.org/derhuerst/vbb-common-places#info=devDependencies)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/vbb-common-places.svg)
+[![gitter channel](https://badges.gitter.im/derhuerst/vbb-rest.svg)](https://gitter.im/derhuerst/vbb-rest)
 
 
 ## Installing
