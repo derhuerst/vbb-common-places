@@ -1,7 +1,7 @@
 {
 	"name":         "vbb-common-places",
 	"description":  "Aliases for common stations.",
-	"version":      "0.4.0",
+	"version":      "0.4.1",
 	"main":         "index.js",
 	"files":        ["index.js", "stations.js"],
 	"keywords":     ["vbb", "stations", "places"],
