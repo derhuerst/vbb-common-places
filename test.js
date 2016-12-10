@@ -20,7 +20,7 @@ test('keys', (t) => {
 test('values', so(function* (t) {
 	for (let key in places.stations) {
 		const id = places.stations[key]
-		t.equal(typeof id, 'number', 'Value should be a number.')
+		t.equal(typeof id, 'string', 'Value should be a valid id.')
 		const station = stations(id)[0]
 		t.equal(station.id, id, 'Station id should exist.')
 	}
