@@ -1,7 +1,7 @@
 {
 	"name":         "vbb-common-places",
 	"description":  "Aliases for common stations.",
-	"version":      "1.0.0",
+	"version":      "1.1.0",
 	"main":         "index.js",
 	"files":        ["index.js", "stations.js"],
 	"keywords":     ["vbb", "stations", "places"],
@@ -13,7 +13,7 @@
 	"devDependencies": {
 		"blue-tape":            "^1.0.0",
 		"so":                   "^1.0.1",
-		"vbb-stations":         "^3.0.1",
+		"vbb-stations":         "^3.2.0",
 		"vbb-tokenize-station": "^0.2.1",
 		"tap-min":              "derhuerst/tap-min"
 	},

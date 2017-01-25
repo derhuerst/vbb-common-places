@@ -34,5 +34,6 @@ module.exports = {
 	"sbahn grossgoerschen strasse":    '900000057102', // S Yorckstr. [S1] (Berlin)
 
 	"ubahn kienberg gaerten der welt": '900000175005', // U Neue Grottkauer Str. (Berlin)
-	"ubahn freie universitaet":        '900000051201'  // U Thielplatz (Berlin) [renaming planned]
+	"ubahn freie universitaet":        '900000051201',  // U Thielplatz (Berlin)
+	"ubahn fu":        '900000051201'  // U Thielplatz (Berlin)
 }
