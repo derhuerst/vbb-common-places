@@ -1,5 +1,6 @@
 'use strict'
 
 module.exports = {
-	stations: require('./stations')
+	stations: require('./stations'),
+	addresses: require('./addresses')
 }
