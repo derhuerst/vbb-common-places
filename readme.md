@@ -20,7 +20,10 @@ npm install vbb-common-places
 ## Usage
 
 ```js
-console.log(require('vbb-common-places'))
+const {stations, addresses} = require('vbb-common-places')
+
+console.log(stations)
+console.log(addresses)
 ```
 
 ```js
@@ -29,6 +32,16 @@ console.log(require('vbb-common-places'))
 	kotti:     '900000013102', // U Kottbusser Tor (Berlin)
 	witzleben: '900000024106', // S Messe Nord/ICC (Berlin)
 	// …
+}
+```
+
+```js
+{
+	stutti: {
+		name: 'Stuttgarter Platz',
+		longitude: 13.301503,
+		latitude: 52.504916
+	}
 }
 ```
 
