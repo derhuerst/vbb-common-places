@@ -13,9 +13,9 @@
 	"devDependencies": {
 		"blue-tape":            "^1.0.0",
 		"so":                   "^1.0.1",
+		"tap-min": "^1.2.1",
 		"vbb-stations":         "^4.0.0",
-		"vbb-tokenize-station": "^0.3.0",
-		"tap-min":              "derhuerst/tap-min"
+		"vbb-tokenize-station": "^0.3.0"
 	},
 	"scripts": {
 		"test":       "tape test.js | tap-min",
