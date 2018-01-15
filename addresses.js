@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-	"stutti": {
+	"Stutti": {
 		name: 'Stuttgarter Platz',
 		longitude: 13.301503,
 		latitude: 52.504916
