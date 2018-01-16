@@ -1,6 +1,6 @@
 # *vbb-common-places*
 
-This is a collection of **aliases for common stations** (like "zoo", "alex", "kotti") to make the search better.
+This is a collection of **aliases for common stations** (like "zoo", "alex", "kotti") to make the search better. Mostly taken from [a Wikipedia article](https://de.wikipedia.org/wiki/Berolinismus#Stra.C3.9Fen.2C_Pl.C3.A4tze_und_Gegenden).
 
 [![npm version](https://img.shields.io/npm/v/vbb-common-places.svg)](https://www.npmjs.com/package/vbb-common-places)
 [![build status](https://img.shields.io/travis/derhuerst/vbb-common-places.svg)](https://travis-ci.org/derhuerst/vbb-common-places)
