@@ -17,7 +17,7 @@
 	"devDependencies": {
 		"tap-min": "^1.2.1",
 		"tape": "^4.8.0",
-		"vbb-stations": "^6.0.0"
+		"vbb-stations": "^7.3.0"
 	},
 	"scripts": {
 		"test":       "tape test.js | tap-min",
