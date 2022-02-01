@@ -1,4 +1,4 @@
-# *vbb-common-places*
+# vbb-common-places
 
 This is a collection of **aliases for common stations** (like "zoo", "alex", "kotti") to make the search better. Mostly taken from [a Wikipedia article](https://de.wikipedia.org/wiki/Berolinismus#Stra.C3.9Fen.2C_Pl.C3.A4tze_und_Gegenden).
 
@@ -7,7 +7,8 @@ This is a collection of **aliases for common stations** (like "zoo", "alex", "ko
 [![dependency status](https://img.shields.io/david/derhuerst/vbb-common-places.svg)](https://david-dm.org/derhuerst/vbb-common-places)
 [![dev dependency status](https://img.shields.io/david/dev/derhuerst/vbb-common-places.svg)](https://david-dm.org/derhuerst/vbb-common-places#info=devDependencies)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/vbb-common-places.svg)
-[![gitter channel](https://badges.gitter.im/derhuerst/vbb-rest.svg)](https://gitter.im/derhuerst/vbb-rest)
+[![support me via GitHub Sponsors](https://img.shields.io/badge/support%20me-donate-fa7664.svg)](https://github.com/sponsors/derhuerst)
+[![chat with me on Twitter](https://img.shields.io/badge/chat%20with%20me-on%20Twitter-1da1f2.svg)](https://twitter.com/derhuerst)
 
 
 ## Installing
