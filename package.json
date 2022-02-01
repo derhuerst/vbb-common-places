@@ -24,12 +24,14 @@
 		"node": ">=16"
 	},
 	"devDependencies": {
+		"eslint": "^8.8.0",
 		"tap-min": "^2.0.0",
 		"tape": "^5.0.0",
 		"vbb-stations": "^8.0.0"
 	},
 	"scripts": {
+		"lint": "eslint .",
 		"test": "tape test.js | tap-min",
-		"prepublish": "npm test"
+		"prepublish": "npm run lint && npm test"
 	}
 }
