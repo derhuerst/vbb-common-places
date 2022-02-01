@@ -21,10 +21,10 @@
 	"repository": "git://github.com/derhuerst/vbb-common-places.git",
 	"license": "ISC",
 	"engines": {
-		"node": ">=6"
+		"node": ">=16"
 	},
 	"devDependencies": {
-		"tap-min": "^1.2.1",
+		"tap-min": "^2.0.0",
 		"tape": "^5.0.0",
 		"vbb-stations": "^6.0.0"
 	},
