@@ -9,9 +9,11 @@ const places = require('./index')
 test('stations', (t) => {
 	for (let name in places.stations) {
 		const id = places.stations[name]
-		t.equal(typeof id, 'string', 'Value should be a valid id.')
+		t.equal(typeof id, 'string', `${name}: Value should be a valid id.`)
 		const station = stations(id)[0]
-		t.equal(station.id, id, 'Station id should exist.')
+		t.ok(station, `${id}: station should exist.`)
+		if (!station) continue
+		t.equal(station.id, id, `${id}: station.id should exist.`)
 	}
 	t.end()
 })
