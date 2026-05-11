@@ -19,7 +19,7 @@ npm install vbb-common-places
 ## Usage
 
 ```js
-const {stations, addresses} = require('vbb-common-places')
+import {stations, addresses} from 'vbb-common-places'
 
 console.log(stations)
 console.log(addresses)

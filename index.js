@@ -1,6 +1,7 @@
-'use strict'
+import stations from './stations.json' with {type: 'json'}
+import addresses from './addresses.json' with {type: 'json'}
 
-module.exports = {
-	stations: require('./stations.json'),
-	addresses: require('./addresses.json')
+export {
+	stations,
+	addresses,
 }
