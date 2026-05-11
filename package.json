@@ -28,13 +28,11 @@
 		"@eslint/js": "^10.0.1",
 		"eslint": "^10.3.0",
 		"globals": "^17.6.0",
-		"tap-min": "^2.0.0",
-		"tape": "^5.0.0",
 		"vbb-stations": "^8.0.0"
 	},
 	"scripts": {
 		"lint": "eslint .",
-		"test": "tape test.js | tap-min",
+		"test": "node --test test.js",
 		"prepublish": "npm run lint && npm test"
 	}
 }

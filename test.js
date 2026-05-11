@@ -1,6 +1,8 @@
-#!/usr/bin/env node
-
-import test from 'tape'
+import {test} from 'node:test'
+import {
+	strictEqual,
+	ok,
+} from 'node:assert/strict'
 import stations from 'vbb-stations'
 
 import {
@@ -16,22 +18,19 @@ test('stations', (t) => {
 			continue
 		}
 
-		t.equal(typeof id, 'string', `${name}: Value should be a valid id.`)
+		strictEqual(typeof id, 'string', `${name}: Value should be a valid id.`)
 		const station = stations(id)[0]
-		t.ok(station, `${id}: station should exist.`)
+		ok(station, `${id}: station should exist.`)
 		if (!station) continue
-		t.equal(station.id, id, `${id}: station.id should exist.`)
+		strictEqual(station.id, id, `${id}: station.id should exist.`)
 	}
-	t.end()
 })
 
 test('addresses', (t) => {
 	for (let key in addressAliases) {
 		const address = addressAliases[key]
-		t.equal(typeof address.name, 'string')
-		t.equal(typeof address.latitude, 'number')
-		t.equal(typeof address.longitude, 'number')
+		strictEqual(typeof address.name, 'string')
+		strictEqual(typeof address.latitude, 'number')
+		strictEqual(typeof address.longitude, 'number')
 	}
-
-	t.end()
 })
