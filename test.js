@@ -10,7 +10,7 @@ import {
 
 test('stations', (t) => {
 	for (let name in stationAliases) {
-		const id = stations[name]
+		const id = stationAliases[name]
 		// As of 2026-05-11 (vbb-stations@8.31.0), VBB's data is currently broken, `de:11000:900086161` (U Otisstr.) doesn't exist, just `de:11000:900086161:1` & `de:11000:900086161:2`.
 		if (id === 'de:11000:900086161') {
 			continue

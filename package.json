@@ -25,7 +25,9 @@
 		"node": ">=26"
 	},
 	"devDependencies": {
-		"eslint": "^8.8.0",
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.3.0",
+		"globals": "^17.6.0",
 		"tap-min": "^2.0.0",
 		"tape": "^5.0.0",
 		"vbb-stations": "^8.0.0"
